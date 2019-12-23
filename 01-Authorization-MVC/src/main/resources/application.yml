@@ -4,7 +4,7 @@ server:
 
 auth0:
   # Replace with the API Identifier for your Auth0 API.
-  audience: {API_IDENTIFIER}
+  audience: https://dev-dcpxnloa.auth0.com/api/v2/
 
 # The following is standard Spring Security OAuth2 configuration.
 spring:
@@ -14,5 +14,5 @@ spring:
         jwt:
           # Replace with the domain of your Auth0 tenant.
           # Note the trailing slash is important!
-          issuer-uri: https://{DOMAIN}/
+          issuer-uri: https://dev-dcpxnloa.auth0.com/
           
